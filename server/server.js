@@ -126,6 +126,7 @@ io.on('connection', (socket) => {
       });
     });
   });
+});
 
   // Quitter un salon
   socket.on('leave_room', (roomName) => {
